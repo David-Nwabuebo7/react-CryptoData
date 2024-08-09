@@ -1,0 +1,72 @@
+.table{
+    
+    th{
+        background-color: rgba(17,25,40,0.75);
+        color: white;    
+        backdrop-filter: blur(19px) saturate(180%);
+        border: 1px solid rgba(255,255,225,0.125);
+        border-radius: 10px;
+       font-size: small;
+       font-weight: 200;
+       .uppercase{
+        text-transform: uppercase;
+       }
+      
+    }
+ 
+    tbody{
+        tr{
+            td{
+                border: 0.5px solid;
+                font-size: small;
+                font-weight: 200;
+                
+            }
+        }
+    }
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+    input{
+        border: none;
+        outline: none;
+        padding: 20px;
+        background-color:rgba(17,25,40,.6) ;
+        color: white;
+        border-radius: 12px;
+    }
+    button{
+        border-radius: 10px;
+
+        .button{
+            width: 10px;
+     
+         }
+    }
+   
+}
+.wait,.error{
+display: flex;
+justify-content: center;
+padding: 20px;
+color: rgb(229, 233, 15);
+text-transform: capitalize;
+}
+
+.Table-Container{
+ display: flex;
+flex-direction: column;
+
+}
+.loading{
+display: flex;
+justify-content: center;
+padding: 20px;
+color: rgb(15, 233, 15);
+text-transform: capitalize;
+}

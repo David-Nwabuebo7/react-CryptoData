@@ -1,0 +1,26 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'poppins',Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body{
+  background: url(../public/bg.jpg);
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+justify-content: center;
+color: white;
+  
+}
+.container{
+width: 90vw;
+background-color:rgba(17,25,40,0.75);
+border-radius: 12px;
+backdrop-filter: blur(19px) saturate(180%);
+border: 1px solid rgba(255,255,225,0.125);
+
+}
