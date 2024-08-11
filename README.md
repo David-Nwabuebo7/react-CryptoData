@@ -1,9 +1,9 @@
 # CryptoData React Frontend
 # Description
-This React-based frontend application fetches cryptocurrency data from a specified API and displays it in an interactive and informative manner.
+This React-based frontend application fetches cryptocurrency data from a specified API and displays it in an interactive and informative manner(tables).
 
 # Features
-Displays real-time or near-real-time cryptocurrency prices./n
+Displays real-time or near-real-time cryptocurrency prices.
 Provides detailed information about specific cryptocurrencies.
 Allows users to search for cryptocurrencies.
 Responsive design for optimal viewing on different screen sizes.
